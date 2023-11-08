@@ -1,25 +1,24 @@
 body{
     width: 100vw;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
-    .container {
-        height: 2000px;
-    };
     .divImgUno{
+        display: flex;
       background-size: cover;
       background-position: center;
       width: 100%;
-      margin: 0%;
-      padding: 0%;
-      .imgUno{
-        width: 100%;
-        margin: 0%;
-        padding: 0%;
-      }
+      margin: 0;
+      padding: 0;
+   
     };
-    
+    .imgUno{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
     .divImgDos{
+    display: flex;
       background-size: cover;
       background-position: center;
       width: 100%;
@@ -32,6 +31,7 @@ body{
       }
     };
     .divImgTres{
+        display: flex;
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -42,6 +42,7 @@ body{
           }
       };
     .divImgCuatro{
+        display: flex;
         background-size: cover;
         background-position: center;
         width: 100%;
