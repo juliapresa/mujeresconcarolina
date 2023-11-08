@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    .container {
+        height: 2000px;
+    };
+    .divImgUno{
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      .imgUno{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+      }
+    };
+    
+    .divImgDos{
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      .imgDos{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+      }
+    };
+    .divImgTres{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        .imgTres{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+          }
+      };
+    .divImgCuatro{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        .imgCuatro{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+          }
+      };
+}
