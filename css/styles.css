@@ -150,7 +150,61 @@ body {
     margin: 0%;
     padding: 0%;
   }
-  
+  .footer{
+    background-image: url(../assets/img/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .formulario{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: 600;
+    justify-content: center;
+  }
+  .parrafo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .footer .formulario .ancla{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-top: 1.5%;
+  }
+  .footer .formulario .red{
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+  }
+  .footer .formulario .red:hover{
+    font-size: 2.3rem;
+  }
+  .footer .redes{
+    display: flex;
+    justify-content: center;
+  }
+  .footer .redes .ancla{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+  }
+  .footer .redes .red{
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+  .footer .redes .red:hover{
+    font-size: 2.1rem;
+  }
   @media screen and (min-width: 0px) and (max-width: 768px) {
     body {
       width: 100vw;
